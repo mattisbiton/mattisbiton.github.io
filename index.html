@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mattis Biton</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="favicon" href="favicon.ico">
+        <script src="https://kit.fontawesome.com/9340690aa2.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="UTF-8">
+        <script>
+            function lockScroll() {
+                document.body.classList.toggle('lock-scroll');
+            }
+
+            function removeHash() {
+                setTimeout(function(){
+                    history.replaceState("", document.title, window.location.pathname);
+                }, 1);
+            }
+      </script>
+    </head>
+    <body>
+        <nav class = desktopnav>
+            <div class = navbar>
+                <div class = menu>
+                    <ul>
+                        <li><a href="#home" onclick="removeHash();">Home</a></li>
+                    </ul>
+                </div><div class = social>
+                    <ul>
+                        <li><a class=icon id=mail_icon href="mailto:mail@mattisbiton.fr"><i class="fa-solid fa-at fa-lg"></i></a></li> 
+                        <li><a class=icon id=linkedin_icon href="https://linkedin.com/in/mattisbiton/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a></li>
+                        <li><a class=icon id=twitter_icon href="https://twitter.com/mattisbiton/" target="_blank"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                        <li><a class=icon id=github_icon href="https://github.com/mattisbiton/" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id=home class = landing>
+            <div class = landing_text>
+                <h1>Mattis<br><span>Biton</span></h1>
+            </div>
+        </div>
+    </body>
+</html>
