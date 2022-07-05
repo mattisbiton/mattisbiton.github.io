@@ -14,8 +14,8 @@ function toggleDarkMode() {
     const checkbox = document.getElementById('emoji-checkbox');
 
     if (event.currentTarget.checked) {
-        checkbox.innerText = "☀️";
+        checkbox.innerText = "😎";
     } else {
-        checkbox.innerText = "🌙";
+        checkbox.innerText = "😴";
     }
  }
