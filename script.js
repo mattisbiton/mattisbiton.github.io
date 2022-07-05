@@ -16,6 +16,6 @@ function toggleDarkMode() {
     if (event.currentTarget.checked) {
         checkbox.innerText = "☀️";
     } else {
-        checkbox.innerText = "🌑";
+        checkbox.innerText = "🌙";
     }
  }
