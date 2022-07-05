@@ -26,6 +26,60 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.dark-mode, .dark-mode .navbar {
+  background-color: rgb(17, 17, 17);
+  color: #f0f2ec;
+  box-shadow: rgba(229, 229, 229, 0.16) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+  transition:0.5s ease;
+  -moz-transition:0.5s ease;
+  -webkit-transition:0.5s ease;
+}
+
+.dark-mode .menu a {
+  color: #f0f2ec;
+  transition:0.5s ease;
+  -moz-transition:0.5s ease;
+  -webkit-transition:0.5s ease;
+}
+
+.dark-mode .navbar .icon {
+  color: #f0f2ec;
+  transition:0.5s ease;
+  -moz-transition:0.5s ease;
+  -webkit-transition:0.5s ease;
+}
+
+.dark-mode #github_icon:hover {
+  color: #171515;
+}
+
+.dark-mode #github_icon::before {
+  background-color: whitesmoke;
+}
+
+.dark-toggle {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.dark-toggle input {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dark-toggle p {
+  font-size:40px;
+  margin: 0 0px 25px 35px;
+}
+
+.dark-toggle label {
+  cursor: pointer;
+}
+
 .desktopnav {
     display:flex;
     align-items: center;
@@ -45,7 +99,6 @@ body {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
   border-radius:40px;
   padding: 5px 30px;
-  transition: ease-in-out 0.2s;
 }
 
 .navbar .titre:hover {

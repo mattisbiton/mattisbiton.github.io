@@ -5,19 +5,9 @@
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="favicon" href="favicon.ico">
         <script src="https://kit.fontawesome.com/9340690aa2.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script.js"></script>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta charset="UTF-8">
-        <script>
-            function lockScroll() {
-                document.body.classList.toggle('lock-scroll');
-            }
-
-            function removeHash() {
-                setTimeout(function(){
-                    history.replaceState("", document.title, window.location.pathname);
-                }, 1);
-            }
-      </script>
     </head>
     <body>
         <nav class = desktopnav>
@@ -41,6 +31,12 @@
             <div class = landing_text>
                 <h1>Mattis<br><span>Biton</span></h1>
             </div>
+        </div>
+
+        <div class="dark-toggle">
+            <label class="switch">
+                <input type="checkbox" onClick="toggleDarkMode()"><p id="emoji-checkbox">🌑</p></input>
+              </label>
         </div>
     </body>
 </html>
