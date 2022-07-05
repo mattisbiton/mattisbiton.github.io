@@ -73,10 +73,7 @@ body {
 
 .dark-toggle p {
   font-size:40px;
-  margin: 0 0px 25px 35px;
-}
-
-.dark-toggle label {
+  margin: 0 0px 25px 20px;
   cursor: pointer;
 }
 
@@ -286,6 +283,10 @@ border-bottom: 3.5px solid #FFC001;
 
     ::-webkit-scrollbar {
       width: 0;
+    }
+
+    .dark-toggle p {
+      margin: 0 0 10px 5px;
     }
 
     .navbar {
