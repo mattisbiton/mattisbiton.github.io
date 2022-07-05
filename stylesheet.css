@@ -58,7 +58,7 @@ body {
 }
 
 .dark-toggle {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: left;
