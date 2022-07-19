@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Mattis Biton</title>
+        <title>Mattis Biton — Home</title>
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="favicon" href="favicon.ico">
         <script src="https://kit.fontawesome.com/9340690aa2.js" crossorigin="anonymous"></script>
@@ -22,6 +22,14 @@
                         <li><a class=icon id=linkedin_icon href="https://linkedin.com/in/mattisbiton/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a></li>
                         <li><a class=icon id=twitter_icon href="https://twitter.com/mattisbiton/" target="_blank"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
                         <li><a class=icon id=github_icon href="https://github.com/mattisbiton/" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a></li>
+                        <div class="dropdown">
+                            <li><a id=language_icon href=""><i class="fa-solid fa-language"></i><span>Language</span></a></li>
+                            <div class="dropdown-content">
+                                <a href="#">Français</a>
+                                <a href="#">Deutsch</a>
+                                <a href="#">English</a>
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -29,8 +37,8 @@
 
         <div id=home class = landing>
             <div class = landing_text>
-                <h1>Mattis<br><span>Biton</span></h1>
-                <a href="#about" class="scroll-more"><p>Scroll for more ↓</p></a>
+                <h1>Mattis<br><span class="lastname">Biton</span></h1>
+                <a href="#about" class="scroll-more" onclick="removeHash();"><p>Scroll for more ↓</p></a>
             </div>
         </div>
 
@@ -38,7 +46,7 @@
 
         <div id="about">
             <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill-opacity="1" d="M0,96L80,85.3C160,75,320,53,480,74.7C640,96,800,160,960,176C1120,192,1280,160,1360,144L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-            <p>There's nothing here... yet!</p>
+            <p>There is nothing to see here... yet!</p>
         </div>
 
         <div class="dark-toggle">
@@ -49,6 +57,6 @@
     </body>
 
     <footer>
-        <p>Made with ❤️ in Lyon, France</p>
+        <p>Made with ❤️ in <a href="https://www.youtube.com/watch?v=SWmm1l073kI" target="_blank">Lyon, France</a> and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
     </footer>
 </html>
