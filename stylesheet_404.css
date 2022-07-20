@@ -18,16 +18,13 @@ body {
 }
 
 h1 {
-    font-size: 400px;
+    font-size: 22em;
     transition:0.5s ease;
     -moz-transition:0.5s ease;
     -webkit-transition:0.5s ease;
     cursor: pointer;
 }
 
-h1 span {
-    font-size: 330px;
-}
 
 h1:hover {
     color: #FFC001;
@@ -65,4 +62,11 @@ a {
   
 .back:hover::before {
     width: 100%;
+}
+
+@media only screen and (max-width: 890px) {
+    h1 {
+        font-size: 12em;
+        text-align: center;
+    }
 }

@@ -70,6 +70,10 @@ body {
   -webkit-transition:0.5s ease;
 }
 
+.dark-mode .landing h1 .lastname {
+  color: #d19d00;
+}
+
 .dark-toggle {
   position: fixed;
   bottom: 0;
@@ -317,11 +321,11 @@ border-bottom: 3.5px solid #FFC001;
 
 #about {
   height: 92vh;
-  background-color: #bbc7d5;
+  background-color: #FFC001;
 }
 
 .dark-mode #about {
-  background-color: #A2ABB5;
+  background-color: #d19d00;
   transition:0.5s ease;
   -moz-transition:0.5s ease;
   -webkit-transition:0.5s ease;
@@ -340,7 +344,7 @@ border-bottom: 3.5px solid #FFC001;
 }
 
 footer {
-  background-color: #bbc7d5;
+  background-color: #FFC001;
   display: grid;
   place-content: center;
   height: 8vh;
@@ -361,8 +365,12 @@ footer a::before {
   transform: translate(-50%);
   width: 0;
   height: 3px;
-  background-color: #FFC001;
+  background-color: #111111;
   transition: all 0.3s ease;
+}
+
+.dark-mode footer a::before {
+  background-color: #f0f2ec;
 }
 
 footer a:hover::before {
@@ -370,7 +378,7 @@ footer a:hover::before {
 }
 
 .dark-mode footer {
-  background-color: #A2ABB5;
+  background-color: #d19d00;
   color: whitesmoke;
   transition:0.5s ease;
   -moz-transition:0.5s ease;
