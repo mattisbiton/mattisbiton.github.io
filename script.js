@@ -3,7 +3,7 @@ function lockScroll() {
 }
 
 function removeHash() {
-    setTimeout(function(){
+    setTimeout(function () {
         history.replaceState("", document.title, window.location.pathname);
     }, 1);
 }
@@ -18,4 +18,4 @@ function toggleDarkMode() {
     } else {
         checkbox.innerText = "🌒";
     }
- }
+}

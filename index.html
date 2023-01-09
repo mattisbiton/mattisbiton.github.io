@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Mattis Biton — Home</title>
-        <link rel="stylesheet" href="stylesheet.css">
-        <link rel="favicon" href="favicon.ico">
-        <script src="https://kit.fontawesome.com/9340690aa2.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="script.js"></script>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <nav class = desktopnav>
-            <div class = navbar>
-                <div class = menu>
-                    <ul>
-                        <li><a href="#home" onclick="removeHash();">Home</a></li>
-                    </ul>
-                </div><div class = social>
-                    <ul>
-                        <li><a class=icon id=mail_icon href="mailto:mail@mattisbiton.fr"><i class="fa-solid fa-at fa-lg"></i></a></li> 
-                        <li><a class=icon id=linkedin_icon href="https://linkedin.com/in/mattisbiton/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a></li>
-                        <li><a class=icon id=twitter_icon href="https://twitter.com/mattisbiton/" target="_blank"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
-                        <li><a class=icon id=github_icon href="https://github.com/mattisbiton/" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-        <div id=home class = landing>
-            <div class = landing_text>
-                <h1>Mattis<br><span class="lastname">Biton</span></h1>
-                <!-- <a href="#about" class="scroll-more" onclick="removeHash();"><p>Scroll for more ↓</p></a> -->
+<head>
+    <title>Mattis Biton — Accueil</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="favicon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/9340690aa2.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <nav class=desktopnav>
+        <div class=navbar>
+            <div class=menu>
+                <ul>
+                    <li><a href="#home" onclick="removeHash();">Home</a></li>
+                </ul>
+            </div>
+            <div class=social>
+                <ul>
+                    <li><a class=icon id=mail_icon href="mailto:mail@mattisbiton.fr"><i
+                                class="fa-solid fa-at fa-lg"></i></a></li>
+                    <li><a class=icon id=linkedin_icon href="https://linkedin.com/in/mattisbiton/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in fa-lg"></i></a></li>
+                    <li><a class=icon id=github_icon href="https://github.com/mattisbiton/" target="_blank"><i
+                                class="fa-brands fa-github fa-lg"></i></a></li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-        
-
-        <!-- <div id="about">
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill-opacity="1" d="M0,96L80,85.3C160,75,320,53,480,74.7C640,96,800,160,960,176C1120,192,1280,160,1360,144L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-            <p>There is nothing to see here... yet!</p>
-        </div> -->
-
-        <div class="dark-toggle">
-            <label class="switch">
-                <input type="checkbox" onClick="toggleDarkMode()"><p id="emoji-checkbox">🌒</p></input>
-              </label>
+    <div id=home class=landing>
+        <div class=landing_text>
+            <h1>Mattis<br><span class="lastname">Biton</span></h1>
+            </a>
         </div>
-        
-    </body>
+    </div>
+
+    <div class="dark-toggle">
+        <label class="switch">
+            <input type="checkbox" onClick="toggleDarkMode()">
+            <p id="emoji-checkbox">🌒</p></input>
+        </label>
+    </div>
+
+    <footer>
+        <p><b>2022 © Mattis Biton</b></p>
+    </footer>
+
+</body>
+
 </html>
