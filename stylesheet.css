@@ -157,6 +157,10 @@ body {
   width: 100%;
 }
 
+.social {
+  margin-right: 25px;
+}
+
 .social ul {
   display: flex;
   justify-content: flex-end;
@@ -226,7 +230,6 @@ body {
 #github_icon {
   bottom: 1%;
   left: -2%;
-  margin-right: 25px;
 }
 
 #github_icon::before {
@@ -443,7 +446,7 @@ footer a:hover::before {
   }
 
   .social li {
-    margin: 0 50px;
+    margin: 0 40px;
   }
 
   #language_icon span {
